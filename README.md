@@ -40,3 +40,11 @@ Time is a factor here. 😉 We've only got 24 hours until lightning is due to st
 		* Update the value of the `lastTimeDepartedLabel` with the value from the `presentTimeLabel`.
 		* Update the value of the `presentTimeLabel` with the value from the `destinationTimeLabel`.
 		* Reset the value of the current speed variable to 0.
+
+## UI Previews
+
+#### The Time Circuits View on App Launch
+![Initial state of time circuits view]()
+
+#### A Modal View for Choosing a Date
+![Modal view showing date picker]()
