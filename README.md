@@ -44,7 +44,7 @@ Time is a factor here. 😉 We've only got 24 hours until lightning is due to st
 ## UI Previews
 
 #### The Time Circuits View on App Launch
-![Initial state of time circuits view]()
+![](https://raw.githubusercontent.com/LambdaSchool/ios-afternoon-project-outatime/master/time-circuits.png)
 
 #### A Modal View for Choosing a Date
-![Modal view showing date picker]()
+![](https://raw.githubusercontent.com/LambdaSchool/ios-afternoon-project-outatime/master/date-picker-modal.png)
