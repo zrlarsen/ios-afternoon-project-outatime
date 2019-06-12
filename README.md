@@ -31,6 +31,7 @@ Time is a factor here. 😉 We've only got 24 hours until lightning is due to st
 * Add `IBOutlet`s to your `TimeCircuitsViewController` for relevant subviews from the storyboard. Also wire them up to the appropriate UI element. Think about which elements on screen you'll want to modify from your code. Those elements will each need an outlet in Swift.
 * Add 1 `IBAction` to the `TimeCircuitsViewController` for when the `travel back` button is tapped. Wire it up to the `touch up inside` event of the button in the storyboard.
 * Create an `IBOutlet` for the date picker, and `IBAction`s for the two buttons in the `DatePickerViewController`, and wire them to the appropriate elements in the view.
+* Connect the time circuits view to the date picker view with a segue. Have it originate from the `set destination time` button, and choose a modal presentation. Set the identifier to `ModalDestinationDatePickerSegue`.
 
 ### Code Tasks
 #### In `TimeCircuitsViewController`
