@@ -27,7 +27,7 @@ Time is a factor here. 😉 We've only got 24 hours until lightning is due to st
 * Drag two view controller objects into your storyboard canvas and set their custom classes to match the two classes you just created above.
 * In the time circuits view, create a UI that matches the screenshot below (recommend you use a vertical stack view to make the subviews align nicely).
 	* Drag the `digital-7.ttf` file from this repo into your project so you can use it. Once added, the font should be available from any font picker in the storyboard.
-	* Feel free to experiment a bit with the UI's look. Take inspiration from the [original time circuits](http://www.int33h.com/test/tc/img/tc.jpg0) used in the movie, but play around with colors and arrangments to make it your own.
+	* Feel free to experiment a bit with the UI's look. Take inspiration from the [original time circuits](http://www.int33h.com/test/tc/img/tc.jpg) used in the movie, but play around with colors and arrangments to make it your own.
 * Add `IBOutlet`s to your `TimeCircuitsViewController` for relevant subviews from the storyboard. Also wire them up to the appropriate UI element. Think about which elements on screen you'll want to modify from your code. Those elements will each need an outlet in Swift.
 * Add 1 `IBAction` to the `TimeCircuitsViewController` for when the `travel back` button is tapped. Wire it up to the `touch up inside` event of the button in the storyboard.
 * Create an `IBOutlet` for the date picker, and `IBAction`s for the two buttons in the `DatePickerViewController`, and wire them to the appropriate elements in the view.
