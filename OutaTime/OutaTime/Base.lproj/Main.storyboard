@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Time Circuits View Controller-->
+        <scene sceneID="KSf-Um-itb">
+            <objects>
+                <viewController id="95f-Ow-kgf" customClass="TimeCircuitsViewController" customModule="OutaTime" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5pe-Md-nRP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillEqually" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ELq-hq-SPu">
+                                <rect key="frame" x="30" y="64" width="354" height="778"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DESTINATION TIME" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GOW-cM-9Oa">
+                                        <rect key="frame" x="100.5" y="0.0" width="153" height="69"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="July 3, 3002" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UUa-PD-mR9">
+                                        <rect key="frame" x="129.5" y="79" width="95" height="68.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PRESENT TIME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fMK-GN-SEl">
+                                        <rect key="frame" x="118.5" y="157.5" width="117" height="69"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="45454545" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s93-uj-jKG">
+                                        <rect key="frame" x="135.5" y="236.5" width="83" height="68.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LAST TIME DEPARTED" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uob-2Q-nKe">
+                                        <rect key="frame" x="90" y="315" width="174" height="69"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="45454545" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mnq-m5-Qdj">
+                                        <rect key="frame" x="135.5" y="394" width="83" height="69"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SPEED" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1KG-aw-NKK">
+                                        <rect key="frame" x="151" y="473" width="52.5" height="68.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4545" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gRN-Sq-lLI">
+                                        <rect key="frame" x="156.5" y="551.5" width="41.5" height="69"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A4k-WU-iFE">
+                                        <rect key="frame" x="93.5" y="630.5" width="167" height="68.5"/>
+                                        <state key="normal" title="SET DESTINATION TIME"/>
+                                        <connections>
+                                            <segue destination="F3K-j5-tgd" kind="presentation" identifier="ModalDestinationDatePickerSegue" id="30g-cw-6A0"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hex-tI-UpM">
+                                        <rect key="frame" x="128" y="709" width="98" height="69"/>
+                                        <state key="normal" title="TRAVEL BACK"/>
+                                        <connections>
+                                            <action selector="travelBackTapped:" destination="95f-Ow-kgf" eventType="touchUpInside" id="bIq-Rm-Lez"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ELq-hq-SPu" firstAttribute="leading" secondItem="SQb-VG-bhR" secondAttribute="leading" constant="30" id="Sm3-a8-Zwu"/>
+                            <constraint firstItem="ELq-hq-SPu" firstAttribute="top" secondItem="SQb-VG-bhR" secondAttribute="top" constant="20" id="Un1-mw-7Rc"/>
+                            <constraint firstItem="SQb-VG-bhR" firstAttribute="trailing" secondItem="ELq-hq-SPu" secondAttribute="trailing" constant="30" id="bUj-Rt-a3G"/>
+                            <constraint firstItem="SQb-VG-bhR" firstAttribute="bottom" secondItem="ELq-hq-SPu" secondAttribute="bottom" constant="20" id="n3s-hD-tL1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="SQb-VG-bhR"/>
+                    </view>
+                    <connections>
+                        <outlet property="destinationTime" destination="UUa-PD-mR9" id="luH-x6-cKx"/>
+                        <outlet property="lastTimeDeparted" destination="mnq-m5-Qdj" id="29E-W2-liG"/>
+                        <outlet property="presentTime" destination="s93-uj-jKG" id="DpV-mZ-fVT"/>
+                        <outlet property="speed" destination="gRN-Sq-lLI" id="bFG-eX-iwu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nvL-bX-TGp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-267" y="84"/>
+        </scene>
+        <!--Date Picker View Controller-->
+        <scene sceneID="M3C-v2-eg6">
+            <objects>
+                <viewController id="F3K-j5-tgd" customClass="DatePickerViewController" customModule="OutaTime" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qjs-2u-ifB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="gbk-TT-Eec">
+                                <rect key="frame" x="47" y="313" width="320" height="216"/>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Elf-RJ-JIL">
+                                <rect key="frame" x="36" y="778" width="48" height="30"/>
+                                <state key="normal" title="Cancel"/>
+                                <connections>
+                                    <action selector="cancelButton:" destination="F3K-j5-tgd" eventType="touchUpInside" id="b9N-AD-71z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qeJ-vj-Sze">
+                                <rect key="frame" x="353" y="778" width="37" height="30"/>
+                                <state key="normal" title="Done"/>
+                                <connections>
+                                    <action selector="doneButton:" destination="F3K-j5-tgd" eventType="touchUpInside" id="4le-Ej-qwS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Elf-RJ-JIL" firstAttribute="leading" secondItem="3VC-9Y-87C" secondAttribute="leading" constant="36" id="0ZY-CF-fNS"/>
+                            <constraint firstItem="qeJ-vj-Sze" firstAttribute="leading" secondItem="Elf-RJ-JIL" secondAttribute="trailing" constant="269" id="18x-b7-2Rl"/>
+                            <constraint firstItem="3VC-9Y-87C" firstAttribute="bottom" secondItem="Elf-RJ-JIL" secondAttribute="bottom" id="1W4-Ij-JEg"/>
+                            <constraint firstItem="gbk-TT-Eec" firstAttribute="centerX" secondItem="qjs-2u-ifB" secondAttribute="centerX" id="8HS-xL-Qs6"/>
+                            <constraint firstItem="gbk-TT-Eec" firstAttribute="centerY" secondItem="qjs-2u-ifB" secondAttribute="centerY" id="HWp-gW-TjM"/>
+                            <constraint firstItem="3VC-9Y-87C" firstAttribute="bottom" secondItem="qeJ-vj-Sze" secondAttribute="bottom" id="Kfw-lH-dip"/>
+                            <constraint firstItem="3VC-9Y-87C" firstAttribute="trailing" secondItem="qeJ-vj-Sze" secondAttribute="trailing" constant="24" id="u5R-jL-itP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="3VC-9Y-87C"/>
+                    </view>
+                    <connections>
+                        <outlet property="DatePicker" destination="gbk-TT-Eec" id="0I2-Fc-pmc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9mu-6D-liY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="578" y="131"/>
+        </scene>
+    </scenes>
+</document>
